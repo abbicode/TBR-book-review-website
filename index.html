@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<!--   
+  -create a dropdown menu from book Reviews that leads to the different book options
+ -->
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="script.js"></script>
+  
+<!--  background and title -->
+  <div class="background">
+<!-- nav -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <div class="dropdown">
+        <button class="dropbtn">Book Reviews</button>
+        <div class="dropdown-stuff">
+          <a href="tig.html">Inheritence Games</a>
+          <a href="legend.html">Legend</a>
+          <a href="percy.html">Percy Jackson</a>
+          <a href="thorns.html">Socery of Thorns</a>
+          <a href="moon.html">Bone Crier's Moon</a>
+      </div>
+      </div>
+    </ul>
+  </nav>
+
+    
+    <div class="title">
+      <h1>THE<br>BOOK<br>REVIEW</h1>
+    </div>
+  </div>
+  
+
+<!-- latest posts  -->
+<h2 class='center'>LATEST POSTS</h2>
+<div class="parent">
+    <div class="child">
+      <a href="tig.html"><img src="photos/tig.jpg" class='baby'></a>
+    </div>
+  
+    <div class="child">
+      <a href="legend.html"><img src="photos/legend.jpg" class='baby'></a>
+    </div>
+  
+    <div class="child">
+      <a href="percy.html"><img src="photos/percy.jpg" class='baby'></a>
+    </div>
+  
+    <div class="child">
+      <a href="thorns.html"><img src="photos/thorns.jpg" class='baby'></a>
+    </div>
+  
+    <div class="child">
+      <a href="moon.html"><img src="photos/moon.jpg" class='baby'></a>
+    </div>
+  </div>
+
+<!-- quote -->
+<div id='quotediv'>
+  <p class='quote'>"A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading"</p>
+  <p class='quote' style="font-size: 2em;">-William Styron</p>
+</div> 
+
+<div class="paragraph" id='About'>
+  <h2 class="about-title">About</h2>
+  <p>This is a book review website where I give summaries and reviews to popular YA (young adult) books. There are many different genres, some of which include dystopian, fantasy, fiction, etc. Right now, there are 5 books I reivewed, <i>The Inheritence Games</i>, <i>Legend</i>, <i>Bone Crier's Moon</i>, <i>Percy Jackson</i>, and <i>Sorcery of Thorns</i>. Credits to <a href="https://www.goodreads.com/">goodreads</a> for the summaries. 
+</p>
+</div>
+  
+</body>
+</html>
